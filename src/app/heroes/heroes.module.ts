@@ -4,7 +4,7 @@ import { HeroeComponent } from './heroe.component';
 import { ListadoComponent } from './listado/listado.component';
 
 @NgModule({
-    // "declarations" CONTIENE LOS COMPONENTES
+    // "declarations" CONTIENE LOS COMPONENTES.
     declarations: [
         HeroeComponent,
         ListadoComponent

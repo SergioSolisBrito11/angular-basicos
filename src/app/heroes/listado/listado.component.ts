@@ -15,7 +15,7 @@ export class ListadoComponent {
   heroeBorrado: string = '';
 
   borrarHeroe(){
-    // CON "shift" SE BORRA EL PRIMER ELEMENTO DEL ARREGLO Y LO RETORNA
+    // CON "shift" SE BORRA EL PRIMER ELEMENTO DEL ARREGLO Y LO RETORNA.
     this.heroeBorrado = this.heroes.shift() || '';
     
 
